@@ -112,23 +112,23 @@
             >;
         };
 
-        nav_num {
-            display-name = "nav_num";
+        symbols_arrows {
+            display-name = "symbols_arrows";
             bindings = <
-&trans  &kp N1    &kp N2            &kp N3             &kp N4   &kp N5         &kp N6      &kp N7                     &kp N8                   &kp N9            &kp N0  &trans
-&trans  &trans    &HRM LCTRL GRAVE  &HRM LEFT_ALT TAB  &trans   &fullscreen    &kp LEFT    &HRM RIGHT_GUI DOWN_ARROW  &HRM RIGHT_ALT UP_ARROW  &HRM RCTRL RIGHT  &trans  &trans
-&trans  &kp HOME  &kp PAGE_UP       &kp PAGE_DOWN      &kp END  &kp CAPS       &caps_word  &trans                     &trans                   &trans            &trans  &trans
-                                    &trans             &trans   &trans         &trans      &trans                     &trans
+&trans  &kp EXCLAMATION        &kp AT            &kp POUND            &kp DLLR                 &kp PRCNT    &kp CARET       &kp AMPS             &kp STAR                 &kp LPAR                  &kp RPAR                       &trans
+&trans  &HRM LEFT_SHIFT GRAVE  &HRM LCTRL MINUS  &HRM LEFT_ALT EQUAL  &HRM LEFT_GUI BACKSLASH  &trans       &kp LEFT_ARROW  &HRM RIGHT_GUI DOWN  &HRM RIGHT_ALT UP_ARROW  &HRM RIGHT_CONTROL RIGHT  &HRM RIGHT_SHIFT SINGLE_QUOTE  &trans
+&trans  &kp TILDE              &kp UNDER         &kp PLUS             &kp PIPE                 &trans       &kp LEFT_BRACE  &kp RIGHT_BRACE      &kp LEFT_BRACKET         &kp RIGHT_BRACKET         &kp DOUBLE_QUOTES              &trans
+                                                 &trans               &trans                   &trans       &trans          &trans               &trans
             >;
         };
 
-        symbols {
-            display-name = "symbols";
+        numpad {
+            display-name = "numpad";
             bindings = <
-&trans  &kp LS(EXCL)  &kp LS(AT)        &kp LS(POUND)        &kp LS(DLLR)         &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)         &kp LS(STAR)         &kp LS(LPAR)             &kp LS(RPAR)                   &trans
-&trans  &trans        &HRM LCTRL GRAVE  &HRM LEFT_ALT MINUS  &HRM LEFT_GUI EQUAL  &trans           &trans         &HRM RIGHT_GUI LBKT  &HRM RIGHT_ALT RBKT  &HRM RIGHT_CONTROL BSLH  &HRM RIGHT_SHIFT SINGLE_QUOTE  &trans
-&trans  &trans        &kp TILDE         &kp UNDER            &kp PLUS             &trans           &trans         &kp LEFT_BRACE       &kp RIGHT_BRACE      &kp PIPE                 &kp DOUBLE_QUOTES              &trans
-                                        &trans               &trans               &trans           &trans         &trans               &trans
+&trans  &trans  &kp HOME               &kp UP_ARROW    &kp PAGE_UP                &trans         &kp KP_NUMLOCK   &kp KP_N7             &kp KP_N8             &kp KP_N9                 &trans                   &trans
+&trans  &trans  &HRM LCTRL LEFT_ARROW  &trans          &HRM LEFT_GUI RIGHT_ARROW  &fullscreen    &kp KP_NUMBER_0  &HRM RIGHT_GUI KP_N4  &HRM RIGHT_ALT KP_N5  &HRM RIGHT_CONTROL KP_N6  &HRM RIGHT_SHIFT KP_DOT  &trans
+&trans  &trans  &kp END                &kp DOWN_ARROW  &kp PAGE_DOWN              &kp CAPS       &caps_word       &kp KP_N1             &kp KP_N2             &kp KP_N3                 &trans                   &trans
+                                       &trans          &trans                     &trans         &trans           &trans                &trans
             >;
         };
 
@@ -142,13 +142,13 @@
             >;
         };
 
-        numpad {
-            display-name = "numpad";
+        numbers {
+            display-name = "numbers";
             bindings = <
-&trans  &trans  &kp HOME               &kp UP_ARROW    &kp PAGE_UP                &trans    &kp KP_NUMLOCK   &kp KP_N7             &kp KP_N8             &kp KP_N9                 &trans                   &trans
-&trans  &trans  &HRM LCTRL LEFT_ARROW  &trans          &HRM LEFT_GUI RIGHT_ARROW  &trans    &kp KP_NUMBER_0  &HRM RIGHT_GUI KP_N4  &HRM RIGHT_ALT KP_N5  &HRM RIGHT_CONTROL KP_N6  &HRM RIGHT_SHIFT KP_DOT  &trans
-&trans  &trans  &kp END                &kp DOWN_ARROW  &kp PAGE_DOWN              &trans    &trans           &kp KP_N1             &kp KP_N2             &kp KP_N3                 &trans                   &trans
-                                       &trans          &trans                     &trans    &trans           &trans                &trans
+&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
