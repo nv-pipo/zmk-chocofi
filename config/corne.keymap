@@ -105,10 +105,10 @@
         symbols {
             display-name = "symbols";
             bindings = <
-&trans  &kp EXCLAMATION        &kp AT            &kp POUND            &kp DLLR                 &kp PRCNT       &kp CARET       &kp AMPS             &kp STAR                 &kp LPAR                  &kp RPAR                       &trans
-&trans  &HRM LEFT_SHIFT GRAVE  &HRM LCTRL MINUS  &HRM LEFT_ALT EQUAL  &HRM LEFT_GUI BACKSLASH  &kp CAPSLOCK    &kp LEFT_ARROW  &HRM RIGHT_GUI DOWN  &HRM RIGHT_ALT UP_ARROW  &HRM RIGHT_CONTROL RIGHT  &HRM RIGHT_SHIFT SINGLE_QUOTE  &trans
-&trans  &kp TILDE              &kp UNDER         &kp PLUS             &kp PIPE                 &caps_word      &kp LEFT_BRACE  &kp LEFT_BRACKET     &kp RIGHT_BRACKET        &kp RIGHT_BRACE           &kp DOUBLE_QUOTES              &trans
-                                                 &trans               &trans                   &trans          &trans          &trans               &trans
+&trans  &kp EXCLAMATION  &kp AT            &kp POUND            &kp DLLR             &kp PRCNT    &kp CARET  &kp AMPS                     &kp STAR                      &kp LPAR                      &kp RPAR                       &trans
+&trans  &trans           &HRM LCTRL GRAVE  &HRM LEFT_ALT MINUS  &HRM LEFT_GUI EQUAL  &trans       &trans     &HRM RIGHT_GUI LEFT_BRACKET  &HRM RIGHT_ALT RIGHT_BRACKET  &HRM RIGHT_CONTROL BACKSLASH  &HRM RIGHT_SHIFT SINGLE_QUOTE  &trans
+&trans  &trans           &kp TILDE         &kp UNDER            &kp PLUS             &trans       &trans     &kp LEFT_BRACE               &kp RIGHT_BRACE               &kp PIPE                      &kp DOUBLE_QUOTES              &trans
+                                           &trans               &trans               &trans       &trans     &trans                       &trans
             >;
         };
 
