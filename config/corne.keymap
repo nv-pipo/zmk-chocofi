@@ -1,11 +1,8 @@
-/ {
-  keymap {/*
+/*
  * Copyright (c) 2020 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
  */
-
-#include <behaviors.dtsi>
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
