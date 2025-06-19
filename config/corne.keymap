@@ -89,13 +89,13 @@
         };
 
         disable_hrm {
-            bindings = <&tog 6>;
+            bindings = <&to 6>;
             key-positions = <36 41>;
             layers = <0>;
         };
 
         enable_hrm {
-            bindings = <&tog 0>;
+            bindings = <&to 0>;
             key-positions = <36 41>;
             layers = <6>;
         };
