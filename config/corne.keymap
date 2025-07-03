@@ -167,10 +167,10 @@
         base_no_hrm {
             display-name = "Base_no_hrm";
             bindings = <
-&trans  &trans  &trans  &trans      &trans  &trans    &trans  &trans  &trans         &trans  &trans    &trans
-&trans  &kp A   &kp S   &kp D       &kp F   &trans    &trans  &kp J   &kp K          &kp L   &kp SEMI  &trans
-&trans  &kp Z   &trans  &trans      &trans  &trans    &trans  &trans  &trans         &trans  &kp FSLH  &trans
-                        &kp ESCAPE  &trans  &trans    &trans  &trans  &kp BACKSPACE
+&trans  &trans  &trans  &trans  &trans          &trans    &trans  &trans          &trans  &trans  &trans    &trans
+&trans  &kp A   &kp S   &kp D   &kp F           &trans    &trans  &kp J           &kp K   &kp L   &kp SEMI  &trans
+&trans  &kp Z   &trans  &trans  &trans          &trans    &trans  &trans          &trans  &trans  &kp FSLH  &trans
+                        &trans  &layer_1_and_3  &trans    &trans  &layer_2_and_4  &trans
             >;
         };
     };
